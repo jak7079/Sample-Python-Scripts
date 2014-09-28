@@ -3,7 +3,7 @@ Sample-Python-Scripts
 
 This is a repository of sample Python scripts
 
-<b>LibraryInfo.py</b>:  This script downloads the html code that lists the <a href="http://library.columbia.edu/locations.html">Columbia University libraries</a>, parses the data for library names, extended descriptions (if available), and email addresses, and then prints that data for each library in the terminal.
+<b>libraryInfo.py</b>:  This script downloads the html code that lists the <a href="http://library.columbia.edu/locations.html">Columbia University libraries</a>, parses the data for library names, extended descriptions (if available), and email addresses, and then prints that data for each library in the terminal.
 
 <b>map_directions.py</b>:  This script prints out directions directions obtained from JSON output of the Google Maps API. It guesses the user's location by finding the location associated with their IP address using the <a href="http://ip.jsontest.com/">http://ip.jsontest.com/</a> and <a href="http://www.geobytes.com/">http://www.geobytes.com/</a> services, and asks the user if they would like directions from the guessed point. If the user does not, the script asks them for a new origination point, a destination, and an optional waypoint. The script then gets querys the <a href="https://developers.google.com/maps/documentation/directions/">Google Maps API</a>, formats the text, and prints out step-by-step directions keeping track of cumulative distance and time. Finally, the script will query the <a href="https://developers.google.com/maps/documentation/streetview/">Google Streetview API</a> to download and display an image of the destination if one is available.
 
